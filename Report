@@ -1,0 +1,5 @@
+#Business Problem Section
+The topic for my project is to determine or predict the severity of accidents in different regions based on the 
+available data set depending on various factors and conditions of the accident. This would help in taking timely action for various accidents as well as preventive measures
+to be taken for areas having frequent accidents with high severity rate. I would try to use a machine learning model to train the algorithm with the available dataset to be 
+able to predict various outcomes of different types of accidents.
