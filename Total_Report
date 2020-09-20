@@ -1,0 +1,36 @@
+#Business Problem Section
+The topic for my project is to determine or predict the severity of accidents in different regions based on the 
+available data set depending on various factors and conditions of the accident. This would help in taking timely action for various accidents as well as preventive measures
+to be taken for areas having frequent accidents with high severity rate. I would try to use a machine learning model to train the algorithm with the available dataset to be 
+able to predict various outcomes of different types of accidents.
+
+#Data_Section
+I am using the example data set provided in the capstone for performing the analysis.  The data provided has al the required information of various accidents along with the 
+list of parameters and factors for different locations over a large period of time. The various inputs provided in the data set can help us to predict and analyze the primary 
+factors contributing to accidents and can predict the severity of any other accident occurring in the region based on the machine learning model.
+
+#Methodology
+I have first imported the data set provided as a sample in the capstone projet. The data set is uploaded in the git-hub repository. I have  taken only a few rows from the data
+set that would help me in analyzing the data.
+They are as follows;
+1) Location
+2) SeverityCode
+3) CollisionType
+4) PersonCount
+
+I have then removed the data having empty or Null values so that only useful information is obtained in the data set.
+
+#Analysis
+I have grouped the data set based on SeverityCode and No. of accidents and it has been found that accidents with severity code '1' have more frequency of collisions when compared 
+to accidents with severity code '2'.
+The data has also been grouped based on the location to determine which locations have had the maximum number of accidents and so on.
+
+
+I have then deployed a Linear Regression Machine Learning model based on the severity code and the person count to determine the no. of persons involved or affected in the accident
+based on the severity code of the accident. This data can be further used to obatin useful insights on the relation between the severity code and the person count.
+It has been found that an average of 1.2 - 1.3 people are affected in an accident based on the severity code.
+The intercept obatined is 1.15
+the coefficient obatined is 0.05.
+
+#Conclusion
+The detailed pictures and results of the analysis has been provided in the presentation.
